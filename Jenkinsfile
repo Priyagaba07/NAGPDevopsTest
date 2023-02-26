@@ -46,7 +46,7 @@
 			         script {
 			try {
 				     echo "Executing Sonar as tests passed"
-                bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.projectKey=Test -Dsonar.login=sqp_195a52fc52d28abfe766092c0c4a9a92b6b8f25a'
+                bat 'mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.9.1.2184:sonar -Dsonar.host.url=http://localhost:9000 -Dsonar.projectKey=Test -Dsonar.login=sqp_a96de22651fef629e929038fb417ca1c8b3b158c'
             
 			}
 			catch (e){
